@@ -14,14 +14,14 @@ export default function Home() {
             title: "Advanced Data Analytics",
             subtitle: "Unlock Business Potential",
             description: "Leverage cutting-edge analytics tools and AI-powered insights to drive sustainable growth and efficiency.",
-            image: '/src/assets/images/slider-img-2.jpg',
+            image: '/images/slider-img-2.jpg',
             buttonText: "Explore Analytics"
         },
         {
             title: "Transforming Data Into Strategic Insights",
             subtitle: "Market Research Excellence",
             description: "We provide comprehensive market research and data analytics solutions to help businesses make informed decisions.",
-            image: '/src/assets/images/slider-img-1.jpg',
+            image: '/images/slider-img-1.jpg',
             buttonText: "Get Started Today"
         },
 
@@ -29,7 +29,7 @@ export default function Home() {
             title: "Consumer Behavior Insights",
             subtitle: "Understand Your Market",
             description: "Deep dive into consumer preferences and behavior patterns through comprehensive surveys and focus groups.",
-            image:  '/src/assets/images/slider-img-3.jpg',
+            image:  '/images/slider-img-3.jpg',
             buttonText: "Learn More"
         }
     ]
@@ -299,7 +299,7 @@ export default function Home() {
                         <div className="relative">
                             <div className="aspect-w-4 aspect-h-3 rounded-2xl overflow-hidden shadow-2xl">
                                 <img
-                                    src= '/src/assets/images/home-img-1.jpg'
+                                    src= '/images/home-img-1.jpg'
                                     alt="Market Research Team"
                                     className="w-full h-full object-cover"
                                 />
@@ -384,14 +384,14 @@ export default function Home() {
                         <div className="flex gap-6 justify-center">
                             <div className="overflow-hidden rounded-xl shadow-lg">
                                 <img
-                                    src= '/src/assets/images/home-img-2.jpg'
+                                    src= '/images/home-img-2.jpg'
                                     alt="Business Meeting"
                                     className="w-56 h-80 object-cover transition-transform duration-500 hover:scale-110"
                                 />
                             </div>
                             <div className="overflow-hidden rounded-xl shadow-lg">
                                 <img
-                                    src= '/src/assets/images/home-img-2.jpg'
+                                    src= '/images/home-img-2.jpg'
                                     alt="Team Collaboration"
                                     className="w-56 h-80 object-cover transition-transform duration-500 hover:scale-110"
                                 />
