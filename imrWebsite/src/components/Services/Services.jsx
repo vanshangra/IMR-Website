@@ -630,15 +630,15 @@ export default function Services() {
           <div className="grid sm:grid-cols-3 gap-8">
             {[
               {
-                src: "/src/assets/images/services-img-1.jpg",
+                src: "/images/services-img-1.jpg",
                 cap: "Macro flow capture & classification"
               },
               {
-                src: "/src/assets/images/services-img-2.jpg",
+                src: "/images/services-img-2.jpg",
                 cap: "Analyst KPI dashboard"
               },
               {
-                src: "/src/assets/images/services-img-3.jpg",
+                src: "/images/services-img-3.jpg",
                 cap: "Intersection AI sensing"
               }
             ].map(img => (
