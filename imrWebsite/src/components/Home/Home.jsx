@@ -1,11 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import { Link } from 'react-router-dom';
-import slider1 from 'imrWebsite/src/assets/images/slider-img-1.jpg'
-import slider2 from 'imrWebsite/src/assets/images/slider-img-2.jpg'
-import slider3 from 'imrWebsite/src/assets/images/slider-img-3.jpg'
-import home1 from 'imrWebsite/src/assets/images/home-img-1.jpg'
-import home2 from 'imrWebsite/src/assets/images/home-img-2.jpg'
-import home3 from 'imrWebsite/src/assets/images/home-img-3.jpg'
+
 
 
 export default function Home() {
