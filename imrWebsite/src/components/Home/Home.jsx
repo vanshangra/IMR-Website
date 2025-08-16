@@ -1,5 +1,12 @@
 import React, { useState, useEffect } from 'react'
 import { Link } from 'react-router-dom';
+import slider1 from '../../assets/images/slider-img-1.jpg'
+import slider2 from '../../assets/images/slider-img-2.jpg'
+import slider3 from '../../assets/images/slider-img-3.jpg'
+import home1 from '../../assets/images/home-img-1.jpg'
+import home2 from '../../assets/images/home-img-2.jpg'
+import home3 from '../../assets/images/home-img-3.jpg'
+
 
 
 export default function Home() {
@@ -13,14 +20,14 @@ export default function Home() {
             title: "Advanced Data Analytics",
             subtitle: "Unlock Business Potential",
             description: "Leverage cutting-edge analytics tools and AI-powered insights to drive sustainable growth and efficiency.",
-            image: "/src/assets/images/slider-img-2.jpg",
+            image: slider2,
             buttonText: "Explore Analytics"
         },
         {
             title: "Transforming Data Into Strategic Insights",
             subtitle: "Market Research Excellence",
             description: "We provide comprehensive market research and data analytics solutions to help businesses make informed decisions.",
-            image: "/src/assets/images/slider-img-1.jpg",
+            image: slider1,
             buttonText: "Get Started Today"
         },
 
@@ -28,7 +35,7 @@ export default function Home() {
             title: "Consumer Behavior Insights",
             subtitle: "Understand Your Market",
             description: "Deep dive into consumer preferences and behavior patterns through comprehensive surveys and focus groups.",
-            image: "/src/assets/images/slider-img-3.jpg",
+            image: slider3,
             buttonText: "Learn More"
         }
     ]
@@ -298,7 +305,7 @@ export default function Home() {
                         <div className="relative">
                             <div className="aspect-w-4 aspect-h-3 rounded-2xl overflow-hidden shadow-2xl">
                                 <img
-                                    src="/src/assets/images/home-img-1.jpg"
+                                    src={home1}
                                     alt="Market Research Team"
                                     className="w-full h-full object-cover"
                                 />
@@ -383,14 +390,14 @@ export default function Home() {
                         <div className="flex gap-6 justify-center">
                             <div className="overflow-hidden rounded-xl shadow-lg">
                                 <img
-                                    src="/src/assets/images/home-img-2.jpg"
+                                    src={home2}
                                     alt="Business Meeting"
                                     className="w-56 h-80 object-cover transition-transform duration-500 hover:scale-110"
                                 />
                             </div>
                             <div className="overflow-hidden rounded-xl shadow-lg">
                                 <img
-                                    src="/src/assets/images/home-img-3.jpg"
+                                    src={home3}
                                     alt="Team Collaboration"
                                     className="w-56 h-80 object-cover transition-transform duration-500 hover:scale-110"
                                 />
