@@ -11,7 +11,7 @@ export default function Header() {
                     {/* Logo */}
                     <Link to="/" className="flex items-center">
                         <img
-                            src="/src/assets/images/IMRI_logo.jpg"
+                            src="/images/IMRI_logo.jpg"
                             alt="IMRI Logo"
                             className='h-10 w-auto mr-3'
                         />
