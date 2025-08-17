@@ -700,7 +700,7 @@ export default function Services() {
             </div>
             <div className="relative">
               <img
-                src="/src/assets/images/home-img-1.jpg"
+                src="/images/home-img-1.jpg"
                 alt="Research Team"
                 className="rounded-xl shadow-lg "
               />
