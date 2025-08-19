@@ -134,8 +134,7 @@ export default function Footer() {
                                     <Link to="/contact" className="text-gray-300 hover:text-blue-400 text-sm transition-colors duration-200 hover:pl-2">
                                         Contact
                                     </Link>
-                                </li>
-                                
+                                </li>       
                             </ul>
                         </div>
 
